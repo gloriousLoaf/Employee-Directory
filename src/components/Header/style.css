@@ -1,0 +1,14 @@
+/* Header */ 
+.headerStyle {
+    background: #17a2b8;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 3px solid #e75a7c;
+}
+
+.logoImg {
+    height: 3%;
+    width: 3%;
+    margin-right: 10px;
+}
