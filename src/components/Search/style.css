@@ -19,9 +19,12 @@
     color: #fff;
 }
 .searchStyle input:focus {
+    outline: none;
     box-shadow: 2px 8px 7px #7a7a7a;
 }
 .searchStyle button:hover, .searchStyle button:focus {
+    outline: none;
     background-color: #e75a7c;
+    box-shadow: 2px 8px 7px #7a7a7a;
     cursor: pointer;
 }
