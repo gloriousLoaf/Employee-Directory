@@ -1,0 +1,7 @@
+.tableStyle {
+    margin: 0 auto;
+}
+
+.tableStyle th, .tableStyle td {
+    padding: 0.8rem;
+}
