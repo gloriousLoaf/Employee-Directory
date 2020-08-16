@@ -1,7 +1,45 @@
+/* Directory */ 
 .tableStyle {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .tableStyle th, .tableStyle td {
-    padding: 0.8rem;
+    padding: 1.25rem 4rem;
+}
+
+/* react-strap-table uses a lot of Bootstrap classes,
+    I'm not using BS, but I will borrow those classes! */
+.tableStyle .react-strap-table {
+    border-radius: 0.25rem;
+    box-shadow: 2px 3px 7px #7a7a7a;
+    border: 2px solid #7a7a7a;
+    margin-bottom: 1.5rem;
+} 
+.float-left {
+    text-align: center;
+    margin: 1rem 0 0 1.75rem;
+}
+ul.pagination {
+    text-align: center;
+}
+ul.pagination li {
+    cursor: pointer;
+    display: inline-block;
+    margin: 1rem 2rem;
+}
+
+/* Search */ 
+.form-control {
+    display: block;
+    margin: 1.5rem auto;
+    font-size: 0.9rem;
+    padding: 0.25rem 0.75rem;
+    box-shadow: 2px 3px 7px #7a7a7a;
+    border: 2px solid #7a7a7a;
+    border-radius: 0.25rem;
+}
+input:focus {
+    outline: none;
+    box-shadow: 2px 8px 7px #7a7a7a;
 }

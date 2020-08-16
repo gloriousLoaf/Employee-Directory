@@ -1,36 +1,32 @@
 // Directory
 import React from "react";
-import "./style.css"
+import "./style.css";
+import ServerTable from 'react-strap-table';
 
+// big thanks to GH use Asem Alalami for npm react-strap-table
+// https://github.com/AsemAlalami/react-strap-table
 function Directory() {
+    // vars to get mock data, set table parameters
+    const url = 'https://5efe2a74dd373900160b3f24.mockapi.io/api/users';
+    const columns = ['id', 'name', 'email'];
+    const options = {
+        headings: { id: '#', created_at: 'Created At' },
+        sortable: ['id', 'name', 'email'],
+        requestParametersNames: { query: 'search', direction: 'order' },
+        loading: ''
+    };
+
     return (
-        <div className="container">
-            <table className="tableStyle">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Phone</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <td>Dummy Text</td>
-                    <td>loopSomeJSON@mail.com</td>
-                    <td>765-4321</td>
-                </tbody>
-                <tbody>
-                    <td>John Smith</td>
-                    <td>john@mail.com</td>
-                    <td>123-4567</td>
-                </tbody>
-                <tbody>
-                    <td>Jane Brown</td>
-                    <td>jane@mail.com</td>
-                    <td>987-6543</td>
-                </tbody>
-            </table>
+        <div className="tableStyle">
+            <ServerTable
+                // search={false}
+                perPage={false}
+                columns={columns}
+                url={url}
+                options={options}
+            />
         </div>
-    )
+    );
 };
 
 export default Directory;

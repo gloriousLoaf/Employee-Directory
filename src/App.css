@@ -2,3 +2,9 @@
 * {
   font-family: 'Nunito', sans-serif;
 }
+
+.App {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 4rem;
+}
