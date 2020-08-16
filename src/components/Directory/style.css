@@ -1,4 +1,4 @@
-/* Directory */ 
+/* Directory Table */ 
 .tableStyle {
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@
     border-radius: 0.25rem;
     box-shadow: 2px 3px 7px #7a7a7a;
     border: 2px solid #7a7a7a;
-    margin-bottom: 1.5rem;
+    margin: 2rem 0;
 } 
 .float-left {
     text-align: center;
@@ -28,18 +28,24 @@ ul.pagination li {
     display: inline-block;
     margin: 1rem 2rem;
 }
+ul.pagination li:hover {
+    font-weight: 700;
+    border-bottom: 2px solid #e75a7c;
+    margin-bottom: -2px;
+}
 
-/* Search */ 
+/* Search Form - more BS class riffing */ 
 .form-control {
     display: block;
     margin: 1.5rem auto;
     font-size: 0.9rem;
-    padding: 0.25rem 0.75rem;
+    padding: 0 0.75rem;
     box-shadow: 2px 3px 7px #7a7a7a;
     border: 2px solid #7a7a7a;
     border-radius: 0.25rem;
 }
 input:focus {
     outline: none;
+    border: 2px solid #e75a7c;
     box-shadow: 2px 8px 7px #7a7a7a;
 }

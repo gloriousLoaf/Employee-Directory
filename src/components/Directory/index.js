@@ -10,16 +10,16 @@ function Directory() {
     const url = 'https://5efe2a74dd373900160b3f24.mockapi.io/api/users';
     const columns = ['id', 'name', 'email'];
     const options = {
-        headings: { id: '#', created_at: 'Created At' },
+        headings: { id: '#' },
         sortable: ['id', 'name', 'email'],
         requestParametersNames: { query: 'search', direction: 'order' },
+        // loading spinner was more distracting than helpful. Bye!
         loading: ''
     };
 
     return (
         <div className="tableStyle">
             <ServerTable
-                // search={false}
                 perPage={false}
                 columns={columns}
                 url={url}
