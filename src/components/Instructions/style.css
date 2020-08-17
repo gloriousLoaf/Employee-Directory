@@ -1,0 +1,7 @@
+/* Instructions */ 
+.instructionStyle {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 -1rem;
+    color: #16697a;
+}

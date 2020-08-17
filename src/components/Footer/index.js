@@ -6,7 +6,9 @@ function Footer() {
     return (
         <footer className='footerStyle'>
             <div>
-                <i className='fab fa-github'></i> <a href='https://github.com/gloriousLoaf' target='_blank' rel='noopener noreferrer'>gloriousLoaf</a> &copy;2020
+                <span aria-hidden="true">
+                    <i className='fab fa-github'></i> <a href='https://github.com/gloriousLoaf' target='_blank' rel='noopener noreferrer'>gloriousLoaf</a>
+                </span>
             </div>
         </footer>
     )

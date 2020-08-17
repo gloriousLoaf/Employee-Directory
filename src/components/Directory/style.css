@@ -15,11 +15,16 @@
     box-shadow: 2px 3px 7px #7a7a7a;
     border: 2px solid #7a7a7a;
     margin: 2rem 0;
+    background-color: #fff;
 } 
+
+/* "Showing 1 to 10 of XX entries" div */ 
 .float-left {
     text-align: center;
     margin: 1rem 0 0 1.75rem;
 }
+
+/* Pagination nav */ 
 ul.pagination {
     text-align: center;
 }
@@ -30,11 +35,11 @@ ul.pagination li {
 }
 ul.pagination li:hover {
     font-weight: 700;
-    border-bottom: 2px solid #e75a7c;
+    border-bottom: 2px solid #ffa62b;
     margin-bottom: -2px;
 }
 
-/* Search Form - more BS class riffing */ 
+/* Search Form - more Bootstrap class riffing */ 
 .form-control {
     display: block;
     margin: 1.5rem auto;
@@ -46,6 +51,6 @@ ul.pagination li:hover {
 }
 input:focus {
     outline: none;
-    border: 2px solid #e75a7c;
+    border: 2px solid #ffa62b;
     box-shadow: 2px 8px 7px #7a7a7a;
 }
