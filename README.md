@@ -1,5 +1,5 @@
-# My first React project.
-A searchable, sortable directory of "employees" from an API.
+# React Employee Directory.
+My first React app. A searchable, sortable directory of "employees" from an API.
 
 ![GitHub language count](https://img.shields.io/github/languages/count/gloriousLoaf/Employee-Directory)
 ![GitHub top language](https://img.shields.io/github/languages/top/gloriousLoaf/Employee-Directory)
